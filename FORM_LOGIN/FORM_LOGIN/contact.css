@@ -1,0 +1,72 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100px;
+    height: auto;
+    background: white;
+    margin: auto;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+.logo{
+    font-size: x-large;
+    padding: 30px 0 30px 10px;
+}
+.navbar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+    background-color: darkslategray;
+    border: 1px solid gainsboro;
+    border-radius: 90px;
+}
+
+.navbar li{
+	float: left;
+}
+
+.navbar li a{
+	display: block;
+	color: #ffffff;
+	text-align: center;         
+	padding: 20px 20px;
+	text-decoration: none;
+}
+nav li a:hover{
+    opacity: 0,9;
+    background-color: dimgray;
+
+}
+
+h1{
+	text-align: center;
+}
+
+.kontak{
+	position: relative;
+	left: 40%;
+	top: 40%;
+	width: 600px;
+}
+
+.kontak form input{
+	width: 500px;
+	border-radius: 10px;
+}
+
+.kontak form button{
+	background-color: darkolivegreen;
+	border-radius: 11px;
+	color: white;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.kontak form{
+	textare: 900px;
+	width: 200%;
+}
